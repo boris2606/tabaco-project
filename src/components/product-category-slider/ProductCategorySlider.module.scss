@@ -1,0 +1,60 @@
+.categorySwiper{
+    margin: 50px;
+    padding: 5px;
+}
+.category_slide_img{
+    width: 100%;
+    max-width: 180px;
+    height: 130px;
+    margin: 20px auto;
+}
+.category_slide_content{
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    border-radius:10px;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.category_slide_product_name{
+    font:600 14px Roboto;
+}
+.tab_lement_more_btn{
+    background: #7a7a7a47;
+    padding: 5px 10px;
+    transition: .5s all ease-in-out;
+    font: 600 14px Roboto;
+    border-radius: 5px;
+    margin: 10px auto 1px;
+    display: block;
+
+    &:hover{
+        color:#fff;
+        background:black;
+    }
+}
+
+.sales_element{
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 5px;
+    background:rgba(255, 0, 0, 0.89);
+    color:#fff;
+    font: 600 12px Roboto;
+    border-radius: 10px 0 10px 0;
+}
+.value_element{
+    font: 600 14px Roboto;
+    margin: 5px auto;
+}
+.prev_value_element{
+    margin-right: 10px;
+    text-decoration: line-through;
+    color:rgba(255, 0, 0, 0.89);
+}
+
+@media screen and (max-width: 420px){
+    .category_slide_img{
+        height: 80px;
+    }
+}

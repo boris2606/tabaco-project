@@ -1,0 +1,36 @@
+.wrapper_footer{
+    background: #2B2B2B;
+    text-align: center;
+    padding: 20px;
+}
+.footer_logo{
+    font: 900 35px Russo One;
+    margin: 40px auto;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_nav_list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin: 15px;
+    flex-wrap: wrap;
+
+    a{
+        font:400 14px Roboto;
+        color: #7a7a7a;
+        transition: .5s all ease-in-out;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-bottom: 1px solid #2B2B2B;
+
+        &:hover{
+            color: #fff;
+            border-bottom: 1px solid #fff;
+        }
+    }
+    
+}

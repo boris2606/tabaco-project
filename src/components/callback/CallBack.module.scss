@@ -1,0 +1,29 @@
+.wrapper_callback{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.call_phone{
+    background: #5c5b5c;
+    display: block;
+    padding: 16px 16px 10px 15px;
+    border-radius: 50px;
+    animation: callAnimation 1s ease-in-out infinite;
+
+    span{
+        font-size: 35px;
+        color: #fff;
+    }
+}
+
+@keyframes callAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

@@ -1,0 +1,23 @@
+.pagination_wrapper{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    margin-top: 40px;
+
+    li{
+        padding: 5px;
+        color: black;
+        font: 500 18px Russo One;
+        background: #ccc9;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border-radius:5px;
+        cursor: pointer;
+        transition: .4s all ease-in-out;
+    }
+}
+.active {
+    background:black !important;
+    color:#fff !important;
+}

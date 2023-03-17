@@ -1,0 +1,125 @@
+
+.wrapper_header{
+    color:#fff;
+    background: #000000e0;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+.header_content{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.navigatin_wraper{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.logo{
+    font:25px Russo One;
+    cursor: pointer;
+}
+.header_nav_list{
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+    flex-wrap: wrap;
+
+    li{
+        a{
+            font: 400 14px Roboto;
+            color:#7A7A7A;
+            text-transform: uppercase;
+            cursor: pointer;
+            text-decoration: none;
+            transition: .5s all ease-in-out;
+    
+            &:hover{
+                color:#fff;
+            }
+        }
+    }
+}
+.controll_panel{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 10px;
+}
+.buy_element{
+    display: flex;
+    gap: 3px;
+    align-items:center;
+    color:#7A7A7A;
+    transition: .5s all ease-in-out;
+    font:900 16px Roboto;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+
+    &::after{
+        position: absolute;
+        content: attr(data-count);
+        background: red;
+        font: 600 8px Roboto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 15px;
+        min-height: 15px;
+        border-radius: 50%;
+        top: 0;
+        right: -7px;
+    }
+
+    i{
+        font-size:24px;
+    }
+
+    &:hover{
+        color:#fff;
+    }
+}
+.disable{
+    pointer-events: none;
+    display: flex;
+    gap: 3px;
+    align-items:center;
+    color:#7A7A7A;
+    font:900 16px Roboto;
+    position: relative;
+    text-decoration: none;
+}
+.controll_hr{
+    color:#7A7A7A;
+    height: 15px;
+}
+.controll_select{
+    background: transparent;
+    border: 0px solid;
+    color: #7A7A7A;
+    cursor: pointer;
+    transition: .5s all ease-in-out;
+    outline: none;
+
+    &:hover{
+        color:#fff;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .header_nav_list{
+        display: none;
+    }
+    .header_content{
+        justify-content: center;
+    }
+}

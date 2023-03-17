@@ -1,0 +1,428 @@
+// HEAD FULLSCREEN BLOCK
+.head_fullscreen{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../../img/head_bg.webp') no-repeat center;
+    background-size: cover;
+}
+.head_fullscreen_content{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.head_top_description{
+    font:400 14px Comfortaa;
+    color: #fff;
+    text-shadow: 0px 2px 10px rgba(29,28,28,1);
+}
+.head_tit_text{
+    font:700 40px Roboto;
+    color:#fff;
+    text-shadow: 0px 2px 10px rgba(29,28,28,1);
+}
+.head_btn_shop{
+    background: transparent;
+    padding: 10px;
+    border: 2px solid #7a7a7a;
+    color: #7a7a7a;
+    text-transform: uppercase;
+    font: 600 13px Roboto;
+    margin: 40px 10px;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+    display: block;
+    max-width: 250px;
+
+    &:hover{
+        color:#fff;
+        border-color:#fff;
+    }
+}
+// END HEAD FULLSCREEN BLOCK
+
+// ELECTRO MACHINES
+.machines_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.machies_video{
+    display: flex;
+    flex: 1 1 30%;
+}
+.machine_video_style{
+    width: 100%;
+}
+.machines_about_tit_txt{
+    font: 800 40px Russo One;
+}
+.machines_about_hr{
+    width: 70px;
+    margin: 20px auto 20px;
+}
+.machines_about_sec_txt{
+    font: 600 20px Roboto;
+}
+.machines_about_content{
+    padding: 50px 70px 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+.machines_about_btn{
+    max-width: 150px;
+    border: 2px solid #7a7a7a;
+    cursor: pointer;
+    background: transparent;
+    padding: 10px;
+    font: 600 12px Roboto;
+    text-transform: uppercase;
+    margin: 20px auto 20px;
+    transition: .5s all ease-in-out;
+
+    &:hover { 
+        background: #7a7a7a;
+        color: #fff;
+    }
+}
+
+// TABACO 
+.wrapper_tabaco{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.slider_tabaco_tit_text{
+    font: 600 30px Russo One;
+    text-align: center;
+}
+.slider_tabaco_wrapper{
+    display: flex;
+    flex: 1 1 30%;
+    max-width: 59.5%;
+}
+.slider_tabaco_content{
+    width: 100%;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.wrapper_slide{
+    padding: 20px 10px 10px;
+    transition: .5s all ease-in-out;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5px 0;
+    max-width: 250px;
+
+    &:hover{
+        box-shadow: 1px 3px 11px 2px rgba(34, 60, 80, 0.2);
+    }
+}
+.slide_element_img{
+    max-width: 230px;
+    height: 210px;
+    width: 100%;
+}
+.slide_element_name{
+    font:600 14px Russo One;
+    text-transform: uppercase;
+    margin: 10px auto;
+}
+.slide_element_price{
+    font:600 14px Roboto;
+}
+.add_element_to_card{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 5px;
+    cursor: pointer;
+    background: #cccccc66;
+    border-radius:5px;
+    padding: 5px 10px;
+    margin-top: 4px;
+    font: 600 12px Roboto;
+    text-transform: uppercase;
+    transition: .5s all ease-in-out;
+
+    span{
+        font-size: 18px;
+    }
+    &:hover { 
+        background: black;
+        color:#fff;
+    }
+}
+
+.description_tabaco{
+    padding: 50px 70px 40px;
+}
+.more_products_btn{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font: 14px Russo One;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    margin: 10px;
+    justify-content: center;
+
+    span{
+        font-size: 20px;
+        margin-left: 3px;
+    }
+    &:hover{
+        color:black;
+    }
+}
+.description_tabaco{
+    flex: 1;
+    background: url(../../img/tabaco_bg.avif) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.tabaco_tit_text{
+    font: 800 40px Russo One;
+    color:#fff;
+    text-shadow: 0px 2px 10px rgba(29,28,28,1);
+    margin-bottom: 30px;
+}
+.all_products_btn{
+    max-width: 150px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    background: transparent;
+    padding: 10px;
+    font: 600 12px Roboto;
+    text-transform: uppercase;
+    transition: .5s all ease-in-out;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0px 2px 10px rgba(29,28,28,1);
+    box-shadow:0px 2px 10px rgb(29 28 28);
+    margin: 20px auto;
+
+    &:hover { 
+        background: #ffffff;
+        color: #000000;
+    }
+}
+
+// GILSES BLOCK
+
+.gilses_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gilses_text_block{
+    flex: 1 1 30%;
+    background: url('../../img/gilses_bg.webp') no-repeat center;
+    background-size:cover;
+    display: flex;
+    padding: 50px 70px 40px;
+    max-width: 59.5%;
+}
+.gilses_content{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-flow: column;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.gilses_tit_txt{
+    font:800 40px Russo One;
+    color: #fff; 
+    text-shadow: 0px 2px 10px rgb(29 28 28);
+}
+.gelses_descr_txt{
+    font:600 20px Roboto; 
+    margin-top: 30px;
+    text-shadow: 0px 2px 10px rgb(29 28 28);
+    color: #fff;
+}
+.gilses_slide_block{
+    flex: 1;
+    padding: 50px 70px 20px;
+    text-align: center;
+    max-width: 32%;
+    margin: 0 auto;
+}
+
+// TOAST STYLES
+.toast_style{
+    background: #7a7a7a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+.toast_text{
+    font:700 16px Roboto;
+}
+.toast_span{
+    color:#000000;
+}
+
+// SALES STYLES
+.sales_element{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 0, 0, 0.829);
+    color: #fff;
+    border-radius: 27px 0 27px 0;
+    padding: 7px;
+    font: 900 15px Roboto;
+}
+.value_element{
+    font: 600 15px Roboto;
+}
+.prev_value_element{
+    margin-right: 10px;
+    text-decoration: line-through;
+    color:rgba(255, 0, 0, 0.829);
+}
+
+// MEDIA QUERIES 
+@media screen and (min-width: 420px) and (max-width: 741px){
+    .slider_tabaco_wrapper{
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .slider_tabaco_wrapper{
+        width: 100%;
+    }
+    .description_tabaco{
+        display: none;
+    }
+    .slide_element_img{
+        height: 110px;
+    }
+
+}
+@media only screen 
+    and (min-device-width: 540px) 
+    and (max-device-width: 720px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+    .slider_tabaco_content{
+        max-width: 77%;
+        margin: 0 auto;
+    }
+}
+@media only screen 
+    and (min-device-width: 390px) 
+    and (max-device-width: 845px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+    .slider_tabaco_wrapper{
+        max-width: 55%;
+    }
+    .machine_video_style{
+        width: 97%;
+    }
+}
+@media screen and (max-width: 659px) {
+    .machines_about_tit_txt,
+    .tabaco_tit_text,
+    .gilses_tit_txt{
+        font-size: 30px;
+    }
+
+    .machines_about_sec_txt,
+    .gelses_descr_txt{
+        font-size: 15px;
+    }
+    .description_tabaco,
+    .gilses_slide_block{
+        display: none;
+    }
+    .machies_video{
+        flex: 1 50%;
+        order: 2;
+    }
+    .slider_tabaco_wrapper{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 960px) {
+    .machines_about_tit_txt,
+    .tabaco_tit_text,
+    .gilses_tit_txt{
+        font-size: 30px;
+    }
+
+    .machines_about_sec_txt,
+    .gelses_descr_txt{
+        font-size: 15px;
+    }
+    .slide_element_img{
+        height: 140px;
+    }
+    .gilses_slide_block{
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .description_tabaco{
+        display: none;
+    }
+    .slide_element_img{
+        height: 100px;
+    }
+    .footer_logo{
+        font-size: 30px;
+    }
+    .gilses_text_block{
+        max-width: 100%;
+    }
+
+}
+
+@media only screen 
+  and (min-device-width: 900px) 
+  and (max-device-width: 1180px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .slider_tabaco_wrapper{
+        max-width: 55%;
+        margin: 0 auto;
+    }
+    .machine_video_style{
+        width: 93%;
+    }
+    .gilses_text_block{
+        max-width: 55%;
+    }
+}
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .slider_tabaco_content{
+        max-width: 77%;
+        margin: 0 auto;
+    }
+    .slide_element_img{
+        height: 140px;
+    }
+}
+
+
+.mySwiper {
+    padding: 25px 10px !important;
+}

@@ -1,0 +1,26 @@
+.timer_wrapper{
+    text-align: center;
+    background: black;
+    padding: 20px;
+    max-width: 500px;
+    margin: -50px auto 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items:center;
+    
+
+    .timer_hr{
+        height: 40px;
+        width: 2px;
+        background: #fff;
+    }
+    p{
+        font: 800 30px Russo One;
+        padding: 10px 10px;
+        width: 100%;
+        background: #fff;
+        border-radius: 10px;
+    }
+}

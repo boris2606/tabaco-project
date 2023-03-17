@@ -1,0 +1,130 @@
+.wrapper_product_info{
+    min-height: 100vh;
+}
+.head_tabaco_content{
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    background: linear-gradient(to top, rgba(58, 58, 58, 0.505), rgba(26, 26, 26, 0.582)),url('../../img/tabac_bg.jpeg') no-repeat center;
+    background-size: cover;
+
+    p{
+        font: 700 40px Roboto;
+        color: #fff;
+        margin-left: 25px;
+    }
+}
+.head_gilses_content{
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    background: linear-gradient(to top, rgba(58, 58, 58, 0.505), rgba(26, 26, 26, 0.582)),url('../../img/gilses_bg.jpeg') no-repeat center;
+    background-size: cover;
+
+    p{
+        font: 700 40px Roboto;
+        color: #fff;
+        margin-left: 25px;
+    }
+}
+.head_machines_content{
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    background: linear-gradient(to top, rgba(58, 58, 58, 0.505), rgba(26, 26, 26, 0.582)),url('../../img/machines_bg_2.webp') no-repeat center;
+    background-size: cover;
+
+    p{
+        font: 700 40px Roboto;
+        color: #fff;
+        margin-left: 25px;
+    }
+}
+.wrapper_product_about{
+    display: flex;
+    justify-content: space-around;
+}
+.product_info_content{
+    width: 100%;
+    max-width: 90%;
+    margin: 50px auto;
+}
+.product_about_slider,
+.product_about_info{
+    width: 40%;
+}
+.product_about_name{
+    font: 600 30px Roboto;
+    margin: 15px 0;
+}
+.value_element{
+    font: 600 19px Roboto;
+}
+.prev_value_element{
+    margin-right: 10px;
+    text-decoration: line-through;
+    color:rgba(255, 0, 0, 0.89);
+}
+.add_element_to_card{
+    font: 500 15px Russo One;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #cccccc72;
+    padding: 5px 10px ;
+    border-radius:5px;
+    transition: .5s all ease-in-out;
+    margin: 20px 0;
+
+    &:hover{
+        background: #080808ea;
+        color: #fff;
+    }
+}
+.product_info_hr{
+    background: #7a7a7aba;
+    height: 2px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.product_info_descr{
+    font: 400 16px Roboto;
+    margin: 10px 0;
+}
+.product_info_сategory{
+    margin:5px 0;
+}
+
+.category_slider_tit{
+    text-align: center;
+    font: 700 25px Russo One;
+}
+// TOAST STYLES
+.toast_style{
+    background: #7a7a7a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+.toast_text{
+    font:700 16px Roboto;
+}
+.toast_span{
+    color:#000000;
+}
+
+@media screen and (max-width: 420px){
+    .wrapper_product_about{
+        flex-flow: column;
+    }
+    .product_about_slider,
+    .product_about_info{
+        width: 100%;
+    }
+}

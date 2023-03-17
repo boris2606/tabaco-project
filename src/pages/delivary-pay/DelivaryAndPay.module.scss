@@ -1,0 +1,54 @@
+.wrapper_delivary_pay{
+    min-height: 100vh;
+}
+.delivary_pay_content{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.head_delivary_pay{
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    background: linear-gradient(to top, rgba(58, 58, 58, 0.505), rgba(26, 26, 26, 0.582)),url('../../img/delivary_bg.jpeg') no-repeat center;
+    background-size: cover;
+
+    p{
+        font: 700 40px Roboto;
+        color: #fff;
+        margin-left: 25px;
+    }
+}
+.delivary_tab_wrapper{
+    display: flex !important;
+    margin: 40px 0;
+}
+.delivary_pay_tab_list{
+    width: 200px;
+    display: flex;
+    gap: 15px;
+    flex-flow: column !important;
+
+    button{
+        background: #7a7a7a3c;
+    }
+}
+.delivary_pay_ul_tit{
+    font: 800 18px Russo One;
+    margin-bottom:10px;
+}
+.delivary_pay_ul{
+    list-style-type:circle;
+    margin: 0 0 10px;
+    background: #7a7a7a20;
+    font: 600 16px Roboto;
+    border-radius: 10px;
+    padding: 10px;
+    li{
+        margin-left: 40px;
+    }
+}
+.delivary_pay_tab{
+    padding: 0 10px 10px 20px !important;
+}
