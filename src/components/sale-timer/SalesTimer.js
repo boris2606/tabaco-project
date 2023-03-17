@@ -10,7 +10,7 @@ const SalesTimer = () => {
     let [hours,minutes,seconds] = timerCountValue
 
     const [over, setOver] = useState(false)
-    const [[h, m, s], setTime] = useState([hours,minutes,seconds])
+    const [{h, m, s}, setTime] = useState([hours,minutes,seconds])
     const tick = () => {
         if (over) reset()
     
