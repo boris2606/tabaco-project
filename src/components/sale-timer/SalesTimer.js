@@ -7,7 +7,13 @@ const SalesTimer = () => {
     const timerCountValue = useSelector(state => state.toolkit.timerCountValue)
     const dispatch = useDispatch()
 
+    console.log(timerCountValue);
+
     let [hours,minutes,seconds] = timerCountValue
+
+    console.log(hours);
+    console.log(minutes);
+    console.log(seconds);
 
     const [over, setOver] = useState(false)
     const [{h, m, s}, setTime] = useState([hours,minutes,seconds])
