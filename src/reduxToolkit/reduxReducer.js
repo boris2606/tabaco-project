@@ -11,7 +11,7 @@ const toolkitSlice = createSlice({
         headerNavigation,
         dataProducts,
         cardArray: !cardArray ? [] : cardArray,
-        timerCountValue
+        timerCountValue: timerCountValue || [23,59,59]
     },
     reducers: {
         changeMoneyValue(state,action){
