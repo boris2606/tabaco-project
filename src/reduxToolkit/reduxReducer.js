@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import { headerNavigation,dataProducts } from "../data/Data";
 
 let cardArray = JSON.parse(localStorage.getItem("cardProducts"))
-let timerCountValue = JSON.parse(localStorage.getItem("timerCount"))
+let timerCountValue = JSON.parse(localStorage.getItem("timerCount")) || [23,59,59]
 
 const toolkitSlice = createSlice({
     name: 'toolkit',
@@ -11,7 +11,7 @@ const toolkitSlice = createSlice({
         headerNavigation,
         dataProducts,
         cardArray: !cardArray ? [] : cardArray,
-        timerCountValue: timerCountValue || [23,59,59]
+        timerCountValue
     },
     reducers: {
         changeMoneyValue(state,action){

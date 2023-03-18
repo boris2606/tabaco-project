@@ -21,7 +21,7 @@ import korona from '../img/machines/korona.jpeg'
 import micromatic from '../img/machines/mikromatic.jpeg'
 import pover from '../img/machines/pover.jpeg'
 
-export const salesPersent = 10
+export const salesPersent = 20
 
 export const headerNavigation = [
     {
